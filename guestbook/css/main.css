@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+form{
+	width: 300px; 
+	margin: 30px 0 30px 50px; 
+	padding: 10px; 
+	border: 1px solid lightgrey; 
+	border-radius: 2px;
+	display: inline-block;
+}
+form#frm_main span{
+	margin-right: 5px;
+}
+form#frm_main div{
+	margin: 0 10px 10px 0;
+}
+textarea{
+	height: 50px;
+	vertical-align: middle;
+}
+div.err{
+	padding-left: 50px;
+	color: red;
+	opacity: 0;
+	height: 0px;
+	font-family: sans-serif;
+}
+.errShow{
+	height: 14px !important;
+	opacity: 0.8 !important;
+}
+form#frm_adm{
+	margin-right: 50px;
+	margin-left: 10px;
+	vertical-align: top;
+	width: 90px;
+}
+input[type=submit]{
+	padding: 3px;
+}
+.log_str{
+	margin: 3px 0px 6px 40px;
+}
+div#tbl{
+	width: 70%; 
+	max-height: 350px; 
+	margin: 10px 0 10px 50px; 
+	overflow-y: scroll; 
+	padding: 10px 10px 10px 50px; 
+	border: 1px solid lightgrey; 
+	border-radius: 2px;
+}
+table{
+	margin: 0px 0 1px 0px; 
+	width: 95%; 
+	text-align: center; 
+	vertical-align: center; 
+	border-collapse: collapse;
+	border-spacing: 0; 
+	/*outline: 1px double #64DF85; */
+	/*outline-offset: 5px;*/
+}
+tr{
+	padding: 2px;
+}
+tr.tr_first{
+	padding: 2px; 
+	background-color: #FF7F00;
+}
+div.containerBtn{
+	display: block; 
+	float: right;
+	padding: 1px 5px 0 5px;
+	visibility: hidden;
+}
+div.containerBtn img{
+	cursor: pointer;
+}
+img.btnHide{
+	margin: 0 5px 0 0;
+}
+td{
+	padding: 2px; 
+	border: 1px solid lightgrey;
+}
+td.tbl_head{
+	padding: 2px; 
+	border: 1px solid lightgrey; 
+	width: 100px;
+}
+button{
+	padding: 3px;
+}
+input[name=apply]{
+	display: none;
+}
+div.hiddenMsg{
+	color: blue; 
+	font-style: italic; 
+	font-family: sans-serif;
+}
+.hid{
+	display: none;
+}
